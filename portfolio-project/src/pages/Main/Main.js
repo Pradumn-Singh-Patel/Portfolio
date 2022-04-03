@@ -34,7 +34,7 @@ function Main() {
       <Projects />
       <Achievement />
       <Contacts />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

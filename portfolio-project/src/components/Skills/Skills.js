@@ -40,22 +40,6 @@ function Skills() {
           </Marquee>
         </div>
       </div>
-      <div id="skills-container" class="skills-display">
-        <div class="skill-progress">
-          <div class="fifty-percent mb-blue" data-bar-width="80">
-            <div class="skill-name">
-              <span> C , JAVA</span>
-            </div>
-          </div>
-        </div>
-        <div class="skill-progress">
-          <div class="eighty-five-percent mb-orange" data-bar-width="85">
-            <div class="skill-name">
-              <span> HTML </span>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
