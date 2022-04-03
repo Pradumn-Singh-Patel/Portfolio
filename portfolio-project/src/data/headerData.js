@@ -3,9 +3,9 @@ import Img from "../assets/png/img.jpg";
 
 export const headerData = {
   name: "Pradumn Singh Patel",
-  title: "Web Developer",
+  title: "Frontend Developer",
   desciption:
-    "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-  image: { Img },
+    "Front end development manages everything that users visually see first in their browser or application. Front end developers are responsible for the look and feel of a site. Front end development is mostly focused on what some may coin the client side of development.",
+  image: "",
   resumePdf: resume,
 };
