@@ -16,9 +16,7 @@
 .landing--img {
   --img-size: 400px;
   position: absolute;
-  /* padding-top: 4rem; */
   left: 35%;
-  /* margi-top: 2rem; */
   transform: translateX(-50%);
   width: var(--img-size);
   height: var(--img-size);

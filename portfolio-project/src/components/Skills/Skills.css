@@ -1,3 +1,78 @@
+.skills {
+  color: white;
+}
+
+.right .bars {
+  width: 30rem;
+  margin-top: 1rem;
+}
+
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.right .react::before {
+  width: 80%;
+}
+.right .js::before {
+  width: 80%;
+}
+.right .native::before {
+  width: 50%;
+}
+.right .html::before {
+  width: 80%;
+}
+.right .css::before {
+  width: 80%;
+}
+.right .python::before {
+  width: 70%;
+}
+.right .bootstrap::before {
+  width: 60%;
+}
+.right .cp::before {
+  width: 70%;
+}
+.right .c::before {
+  width: 70%;
+}
+.right .django::before {
+  width: 60%;
+}
+.right .git::before {
+  width: 60%;
+}
+.right .sql::before {
+  width: 60%;
+}
+.right .figma::before {
+  width: 60%;
+}
 .skills-display {
   width: 75%;
   padding: 10px;

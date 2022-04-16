@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import Marquee from "react-fast-marquee";
-
 import "./Skills.css";
 
 import { ThemeContext } from "../../contexts/ThemeContext";
@@ -40,6 +39,104 @@ function Skills() {
           </Marquee>
         </div>
       </div>
+      <section className="skills" id="skills">
+        <div className="max-width">
+          <div className="skills-content"></div>
+          <div className="column right">
+            <div className="bars">
+              <div className="info">
+                <span>ReactJS</span>
+                <span>80%</span>
+              </div>
+              <div className="line react"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>Javascript</span>
+                <span>80%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>React Native</span>
+                <span>50%</span>
+              </div>
+              <div className="line native"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>80%</span>
+              </div>
+              <div className="line html"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>80%</span>
+              </div>
+              <div className="line css"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>Python</span>
+                <span>70%</span>
+              </div>
+              <div className="line python"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>Bootstrap</span>
+                <span>60%</span>
+              </div>
+              <div className="line bootstrap"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>C++</span>
+                <span>70%</span>
+              </div>
+              <div className="line cp"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>C</span>
+                <span>70%</span>
+              </div>
+              <div className="line c"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>Django</span>
+                <span>60%</span>
+              </div>
+              <div className="line django"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>Git</span>
+                <span>60%</span>
+              </div>
+              <div className="line git"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>MySql</span>
+                <span>60%</span>
+              </div>
+              <div className="line sql"></div>
+            </div>
+            <div className="bars">
+              <div class="info">
+                <span>Figma</span>
+                <span>60%</span>
+              </div>
+              <div className="line figma"></div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
