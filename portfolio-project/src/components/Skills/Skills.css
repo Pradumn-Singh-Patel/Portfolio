@@ -32,7 +32,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  background: crimson;
+  background: #f56539;
 }
 .right .react::before {
   width: 80%;
