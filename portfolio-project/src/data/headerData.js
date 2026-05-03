@@ -1,4 +1,4 @@
-import resume from "../assets/pdf/22111_Pradumn_CSE_DCE.pdf";
+import resume from "../assets/pdf/Pradumn_React.pdf";
 import Img from "../assets/png/img.jpg";
 
 export const headerData = {
