@@ -13,6 +13,14 @@ export const achievementData = {
       image: Img,
       // "https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80",
     },
+     {
+      id: 1,
+      title: "Hack DSC Hackathon",
+      details: "Awarded a certificate of participation for designing an innovative, next-generation cinema website experience using Figma",
+      date: "May 28, 2021",
+      field: "App development",
+      image: "https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    },
     {
       id: 2,
       title: "5 star Competative Programming on HackerRank ",

@@ -1,7 +1,7 @@
 export const educationData = [
   {
     id: 1,
-    institution: "Dronacharya Collage of Engineering",
+    institution: "Dronacharya College of Engineering",
     course: "B-Tech : Computer Science",
     startYear: "2019",
     endYear: "2023",

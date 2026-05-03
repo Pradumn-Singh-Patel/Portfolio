@@ -9,6 +9,36 @@ import eight from "../assets/svg/projects/eight.svg";
 
 export const projectsData = [
   {
+    id: 4,
+    projectName: "Savvy Health",
+    projectDesc:
+      "Developed scalable frontend solutions for healthcare SaaS products using React.js, TypeScript, and Redux. Implemented role-based access control reducing unauthorized access incidents by 60% and optimized UI performance achieving 40% performance gains.",
+    tags: ["React", "TypeScript", "Redux", "CSS", "JavaScript"],
+    code: "",
+    demo: "",
+    image: four,
+  },
+  {
+    id: 5,
+    projectName: "Student Wellbeing Hub",
+    projectDesc:
+      "Built responsive web applications for EdTech platform using React and modern TypeScript. Collaborated with cross-functional teams to deliver end-to-end features from inception to production. Implemented state management with Redux and integrated REST APIs.",
+    tags: ["React", "TypeScript", "Redux", "JavaScript", "CSS", "API"],
+    code: "",
+    demo: "",
+    image: five,
+  },
+  {
+    id: 6,
+    projectName: "Measurely",
+    projectDesc:
+      "Australian healthcare SaaS platform deployed through to production. Architected reusable custom React hooks, implemented code-split lazy-loaded components for optimal performance, and built a scalable UI component library. Delivered production-grade frontend solutions with focus on performance optimization and maintainability.",
+    tags: ["React", "TypeScript", "Redux", "JavaScript", "CSS", "Custom Hooks", "Component Library"],
+    code: "",
+    demo: "",
+    image: six,
+  },
+  {
     id: 1,
     projectName: "Netflix Clone (Landing Page)",
     projectDesc:
@@ -17,16 +47,6 @@ export const projectsData = [
     code: "https://github.com/Pradumn-Singh-Patel/Netflix-Clone",
     demo: "https://pradumn-singh-patel.github.io/Netflix-Clone/",
     image: one,
-  },
-  {
-    id: 2,
-    projectName: "Covid Tracker",
-    projectDesc:
-      "This project aims to build a Covid -19 Tracker in which user are able to fectch and see the covid data of various country like Recovery, Death and Acitve cases which are fetch with the help of API from the real time data of desease.sh .",
-    tags: ["React", "CSS", "API", "Media Query"],
-    code: "https://github.com/Pradumn-Singh-Patel/Covid-Tracker-React",
-    demo: "https://covid-tracker-4eec1.web.app/",
-    image: two,
   },
   {
     id: 3,

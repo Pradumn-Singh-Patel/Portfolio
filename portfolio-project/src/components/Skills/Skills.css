@@ -73,6 +73,15 @@
 .right .figma::before {
   width: 60%;
 }
+.right .typescript::before {
+  width: 70%;
+}
+.right .redux::before {
+  width: 70%;
+}
+.right .materialui::before {
+  width: 70%;
+}
 .skills-display {
   width: 75%;
   padding: 10px;

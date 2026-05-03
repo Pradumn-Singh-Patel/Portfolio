@@ -30,7 +30,7 @@ function Skills() {
             play={true}
             direction="left"
           >
-            {skillsData.map((skill, id) => (
+            {skillsData?.map((skill, id) => (
               <div className="skill--box" key={id} style={skillBoxStyle}>
                 <img src={skillsImage(skill)} alt={skill} />
                 <h3 style={{ color: theme.tertiary }}>{skill}</h3>
@@ -50,12 +50,34 @@ function Skills() {
               </div>
               <div className="line react"></div>
             </div>
+               <div className="bars">
+              <div className="info">
+                <span>TypeScript</span>
+                <span>70%</span>
+              </div>
+              <div className="line typescript"></div>
+            </div>
             <div className="bars">
               <div className="info">
                 <span>Javascript</span>
                 <span>80%</span>
               </div>
               <div class="line js"></div>
+            </div>
+            <div className="bars">
+              <div className="info">
+                <span>Redux</span>
+                <span>70%</span>
+              </div>
+              <div class="line redux"></div>
+            </div>
+
+            <div className="bars">
+              <div className="info">
+                <span>Material UI</span>
+                <span>70%</span>
+              </div>
+              <div className="line materialui"></div>
             </div>
             <div className="bars">
               <div className="info">
@@ -81,14 +103,14 @@ function Skills() {
             <div className="bars">
               <div class="info">
                 <span>Python</span>
-                <span>70%</span>
+                <span>50%</span>
               </div>
               <div className="line python"></div>
             </div>
             <div className="bars">
               <div class="info">
                 <span>Bootstrap</span>
-                <span>60%</span>
+                <span>50%</span>
               </div>
               <div className="line bootstrap"></div>
             </div>
@@ -101,15 +123,8 @@ function Skills() {
             </div>
             <div className="bars">
               <div class="info">
-                <span>C</span>
-                <span>70%</span>
-              </div>
-              <div className="line c"></div>
-            </div>
-            <div className="bars">
-              <div class="info">
                 <span>Django</span>
-                <span>60%</span>
+                <span>50%</span>
               </div>
               <div className="line django"></div>
             </div>
@@ -130,7 +145,7 @@ function Skills() {
             <div className="bars">
               <div class="info">
                 <span>Figma</span>
-                <span>60%</span>
+                <span>50%</span>
               </div>
               <div className="line figma"></div>
             </div>

@@ -74,7 +74,7 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
-
+import redux from '../assets/svg/skills/redux.svg'
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
@@ -105,6 +105,8 @@ export const skillsImage = (skill) => {
             return nuxtJS;
         case 'react':
             return react;
+        case 'redux':
+            return redux;
         case 'svelte':
             return svelte;
         case 'typescript':

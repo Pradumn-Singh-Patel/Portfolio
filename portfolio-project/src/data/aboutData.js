@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Pradumn Singh Patel and I am a pre-final year Undergraduate pursuing Bachelors of Technology in Computer Science & Engineering, with experience 2 year in Web Development",
+    "I'm Pradumn Singh Patel, a Frontend Software Developer with 3+ years of experience delivering scalable, production-grade SaaS products across healthcare and EdTech domains. I specialize in React.js, TypeScript, and Redux, with a consistent track record of achieving 40% UI performance gains, reducing unauthorized access incidents by 60%, and driving end-to-end feature delivery from inception to production.",
   description2:
-    "My aim is to be a full stack engineer, for that I have been constantly working on my fields. I like to explore different fields to learn new things. I am looking for opportunities as - Software Developer / Web Developer",
+    "My journey in software development began with a fascination for how technology can solve real-world problems. Since then, I've been continuously learning and growing, exploring various programming languages, frameworks, and tools. I thrive in collaborative environments where I can contribute my skills and learn from others to build innovative solutions.",
   image: 2,
 };
